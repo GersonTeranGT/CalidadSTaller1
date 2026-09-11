@@ -38,7 +38,7 @@ class Personaje:
         self._vida = vida
 
     def obtener_poder_total(self):
-        return sum(hab.obtener_dano() for hab in self._habilidades)
+        return sum(hab.obtener_danio() for hab in self._habilidades)
 
     def __str__(self):
         texto = f" \nPersonaje: {self._nombre}\n"

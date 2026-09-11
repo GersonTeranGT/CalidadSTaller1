@@ -55,7 +55,7 @@ class PuertaOficina(Puerta):
 
 
 class ControlPuerta:
-    """Control basico: abrir y cerrar."""
+    """Control basico: abrir y cerrar"""
     def __init__(self, puerta):
         self.puerta = puerta
 
@@ -67,7 +67,7 @@ class ControlPuerta:
 
 
 class ControlPuertaSeguridad(ControlPuerta):
-    """Control con funciones de seguridad."""
+    """Control con funciones de seguridad"""
 
     def bloquear(self):
         self.puerta.bloquear(True)

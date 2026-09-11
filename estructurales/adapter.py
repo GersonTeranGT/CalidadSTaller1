@@ -1,12 +1,12 @@
 
 class ReproductorMP3:
-    """Reproductor moderno digital."""
+    """Reproductor moderno digital"""
     def reproducir_mp3(self, cancion):
         return f"Reproduciendo MP3: {cancion}"
 
 
 class TocadiscosVinilo:
-    """Tocadiscos antiguo analogico."""
+    """Tocadiscos antiguo analogico"""
     def girar_vinilo(self, disco):
         return f"Girando vinilo: {disco}"
 
@@ -25,7 +25,7 @@ class AdaptadorViniloMP3:
 
 
 def escuchar_musica(reproductor, cancion):
-    """El cliente solo sabe usar 'reproducir_mp3'."""
+    """El cliente solo sabe usar reproducir_mp3"""
     print(reproductor.reproducir_mp3(cancion))
 
 
